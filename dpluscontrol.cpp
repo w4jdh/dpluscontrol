@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
 	std::vector<std::string> args(argv, argv + argc);
 	std::string linkCommand;
 	std::ofstream linkFile;
-	if (argc < 3 || argc > 5) { std::cerr << "Usage: \nLinking: " << args[0]
+	if (argc < 5 || argc > 5) { std::cerr << "Usage: \nLinking: " << args[0]
 			<< " link <local module> <remote repeater> <remote port>\nUnlinking: "
 			<< args[0] << " unlink <local module>" << std::endl
 			<< "Variable arguments must be in ALL CAPS." << std::endl; }
