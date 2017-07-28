@@ -67,7 +67,7 @@ int main(int argc, char *argv[]) {
 			linkFile << linkCommand << std::endl;
 			linkFile.close();
 		}
-		else { std::err << "Module must be A, B, C or, D!" << std::endl; }
+		else { std::cerr << "Module must be A, B, C or, D!" << std::endl; }
 	}
 	else {
 		std::cerr << "Usage: \nLinking: " << args[0]
