@@ -1,6 +1,6 @@
 /*
 * dpluscontrol.cpp
-* (c)2017 - Joshua Holmes, W4JDH <w4jdh@arrl.net>
+* (c)2017 - Juniper Holmes, W4JDH <w4jdh@arrl.net>
 * Program to manage DPLUS links on a D-STAR repeater.
 * /dstar/tmp must be world-writable for this to work most effectively.
 * Usage information can be seen by running the program without any arguments.
